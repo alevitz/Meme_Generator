@@ -1,0 +1,67 @@
+
+div p, div h1{
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white;
+  font-size: 2.5em;
+}
+
+div label {
+  font-family: 'Anton', sans-serif;
+}
+
+button {
+  background-color: #f43939;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 8px 0;
+  box-sizing: border-box;
+}
+
+.topContainer{
+  background-color: rgba(250, 242, 242, 0.877);
+  padding: 5px 0 10px 0;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+  
+}
+
+.formContainer {
+  margin: 0 20px 20px 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white
+  }
+
+  .topText {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 40px;
+}
+
+  .bottomText {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    text-align: center;
+    width: 100%; 
+    font-family: 'Anton', sans-serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 40px;
+}
